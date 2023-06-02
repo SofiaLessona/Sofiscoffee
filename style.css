@@ -1,0 +1,169 @@
+/* Hoja de estilos, Sofi's coffee shop */
+
+@font-face {
+    font-family: Bitter;
+    src: url(./Tipografias/Bitter-VariableFont_wght.ttf);
+}
+
+body {
+    background-color:#C8DBBE;
+}
+
+.en-linea {
+    display: inline-block;
+}
+
+* {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/* Header */
+header {
+    background-image: url(./Imagenes/fondocaferectangular.jpg);
+    padding: 100px;
+    width: 86%;
+    border-radius: 8px;
+    position: relative;
+}
+
+h1 {
+    color:wheat;
+    font-family: Bitter, 'Times New Roman', Times, serif;
+    font-size: 50px;
+    text-shadow: 1px 3px rgb(121, 106, 79);
+    text-align: center;
+}
+
+#intro {
+    color:#F1EEDB;
+    font-size: 20px;
+    text-align: center;
+}
+
+a {
+    color: #F1EEDB;
+    font-size: larger;
+    position: absolute;
+    right: 10px;
+    bottom: 20px;
+}
+
+.boton {
+    background-color: #693229;
+    text-decoration: none;
+    padding: 5px;
+    border-radius: 8px;
+    border:#000000 dotted 2px;
+}
+
+.boton:hover {
+    background-color: transparent;
+    border: 2px dotted white;
+    color: white;
+}
+
+/* Main */
+main {
+    margin-left: 100px;
+}
+
+p {
+    color:black;
+    font-size:medium;
+}
+
+.frase {
+    color: #8b4034;
+}
+
+h2 {
+    color: #B56357;
+    font-size: x-large ;
+
+}
+
+h3 {
+    color:black;
+    font-size: larger;
+}
+
+/* Footer */
+
+.contacto {
+    padding-left: 60px;
+}
+
+footer {
+    background-color: #90B77D;
+    padding: 10px;
+    margin: 30px 20px 0 20px;
+}
+
+iframe {
+    width: 500px;
+    height: 250px;
+}
+
+.contenedorFooter {
+    width: 100%;
+    padding-left: 250px;
+    display: grid;
+    grid-template-columns: repeat(2,400px);
+    grid-template-rows: repeat(2,200px);
+    align-self: center;
+}
+
+.item-contacto {
+    margin: 10px;
+}
+
+#ubicacion {
+    grid-column: 1/3;
+    grid-row: 2/4;
+    align-items: center;
+}
+
+.mapa {
+    height: 75%;
+    width: 75%;
+    padding-bottom: 5px;
+}
+
+
+/* Pagina Variedades */
+
+section {
+    width: 350px ;
+    height: 600px;
+    display: inline-block;
+    margin: 50px 50px;
+    border:#000000 dotted 2px;
+    background-color: #81b667;
+    text-align: center;
+}
+
+.contenedorTarjetas {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+img {
+    width: 80%;
+    border:#000000 dotted 2px; 
+}
+
+button {
+    background-color: #B56357;
+    text-decoration: none;
+    padding: 5px;
+    border-radius: 8px;
+    border:#000000 dotted 2px;
+}
+
+button:hover {
+    background-color: transparent;
+    border: 2px dotted white;
+    color: white;
+    transform: scale(1.5,1.5);
+}
